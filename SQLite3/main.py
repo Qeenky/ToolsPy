@@ -55,26 +55,6 @@ def insert_method_template():
 
 
 def get_last_row_template():
-    # conn = get_connection()
-    # try:
-    #     cursor = conn.cursor()
-    #     cursor.execute(
-    #         """
-    #         SELECT id, title, parent_session_id, created_at, updated_at
-    #         FROM sessions
-    #         WHERE user_id = ?
-    #         ORDER BY created_at DESC
-    #         LIMIT 1
-    #         """,
-    #         (user_id,)
-    #     )
-    #     row = cursor.fetchone()
-    #     return dict(row) if row else None
-    # except sqlite3.Error as e:
-    #     print(f"[ERROR] Ошибка при получении сессии: {e}")
-    #     return None
-    # finally:
-    #     conn.close()
     pass
 
 
